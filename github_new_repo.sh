@@ -24,7 +24,7 @@ curl -u ${username} https://api.github.com/user/repos -d "{\"name\": \"${repo_na
 git remote add origin https://github.com/${username}/${repo_name}.git
 git push --set-upstream origin master
 
-cd "/Users/onur/Documents/GitHub/${repo_name}"
+cd "~/Documents/GitHub/${repo_name}"
 
 echo "Mission Completed"
 echo " *** You're now in your project root. *** "
