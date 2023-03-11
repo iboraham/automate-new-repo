@@ -1,13 +1,13 @@
 # read repo name
 echo "Please provide repository name"
-read repo_name
+read -r repo_name
 
 # repo desc
 echo "Please provide repository description"
-read desc
+read -r desc
 
 echo "What is your username"
-read username
+read -r username
 
 
 mkdir "/Users/onur/Documents/GitHub/${repo_name}"
